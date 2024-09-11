@@ -1,0 +1,2249 @@
+[
+{
+    "cluster": "Prod46",
+    "tenantid": "a1t1stls",
+    "tenantname": "Securonix Threat Labs - STR",
+    "plan": "ueba_only",
+    "status": "valid",
+    "version": "version9.7",
+    "validity": "886-days",
+    "start_date": "2022-04-29 00:00:00",
+    "end_date": "2024-09-30 23:59:59",
+    "grace_period": "10-days",
+    "licensed_users": "1000",
+    "licensed_resources": "1000000000",
+    "holder": "CN=qaenv",
+    "expiry_action": "warn",
+    "license_type": "enterprise",
+    "consumer_type": "user",
+    "consumer_amount": "1",
+    "warn_period": "30-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "MSSP Security Analytics",
+    "policy_allowed_count": "1500",
+    "cold_storage": "2",
+    "cold_storage_days": "23",
+    "billing_type": "95th_%_eps",
+    "gb_per_day": "",
+    "eps": "",
+    "eps_percent": "500",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/SHAR-8605",
+    "operation": "renew_license",
+    "refresh_snypr": "yes",
+    "useremail": "akarunakaran@securonix.com",
+    "logtime": 1725979717000,
+    "timeutc": "2024-09-10 14:48:37",
+    "features_dict": {
+      "ueba_only": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "0-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "Yes"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "Yes"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot storage": "",
+          "Additional Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "prod46",
+    "tenantid": "a1t1udsnew",
+    "tenantname": "a1t1udsnew",
+    "plan": "standard",
+    "status": "valid",
+    "version": "version1.3",
+    "validity": "79-days",
+    "start_date": "2024-06-15 00:00:00",
+    "end_date": "2024-09-01 23:59:59",
+    "grace_period": "60-days",
+    "licensed_users": "1000000",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "12211",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "securonix",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": "0",
+    "billing_type": "avg_eps",
+    "gb_per_day": "",
+    "eps": "5000",
+    "eps_percent": "",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/SHAR-8605",
+    "operation": "renew_license",
+    "refresh_snypr": "no",
+    "useremail": "akarunakaran@securonix.com",
+    "logtime": 1724218484000,
+    "timeutc": "2024-08-21 05:34:44",
+    "features_dict": {
+      "standard": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "90-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot storage": "",
+          "Additional Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "UAT01",
+    "tenantid": "a1t1xpcs",
+    "tenantname": "a1t1xpcs",
+    "plan": "allin",
+    "status": "valid",
+    "version": "version2.9",
+    "validity": "307-days",
+    "start_date": "2024-02-29 00:00:00",
+    "end_date": "2024-12-31 23:59:59",
+    "grace_period": "60-days",
+    "licensed_users": "100000",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "enterprise",
+    "consumer_type": "user",
+    "consumer_amount": "12211",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "Securonix License",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": "30",
+    "billing_type": "gb_per_day",
+    "gb_per_day": "1501-1750",
+    "eps": "",
+    "eps_percent": "",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/SNYP-105519",
+    "operation": "renew_license",
+    "refresh_snypr": "no",
+    "useremail": "vkumarhm@securonix.com",
+    "logtime": 1723039813000,
+    "timeutc": "2024-08-07 14:10:13",
+    "features_dict": {
+      "allin": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "365-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "Yes"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "Yes"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "Yes",
+          "SOAR: Security Orchestration and Automation and Response module": "Full",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "Yes",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot storage": "",
+          "Additional Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "uat01",
+    "tenantid": "a1t4bdiu",
+    "tenantname": "a1t4bdiu",
+    "plan": "advanced",
+    "status": "valid",
+    "version": "version7.2",
+    "validity": "185-days",
+    "start_date": "2024-02-29 00:00:00",
+    "end_date": "2024-08-31 23:59:59",
+    "grace_period": "60-days",
+    "licensed_users": "100000",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "12211",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "MSSP Security Analytics",
+    "policy_allowed_count": "1500",
+    "cold_storage": "1",
+    "cold_storage_days": "30",
+    "billing_type": "avg_eps",
+    "gb_per_day": "",
+    "eps": "0",
+    "eps_percent": "",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/SNYP-103489",
+    "operation": "renew_license",
+    "refresh_snypr": "yes",
+    "useremail": "saditya@securonix.com",
+    "logtime": 1723038472000,
+    "timeutc": "2024-08-07 13:47:52",
+    "features_dict": {
+      "advanced": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "365-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "Yes"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "Yes"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot storage": "",
+          "Additional Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "test01",
+    "tenantid": "test01",
+    "tenantname": "test01",
+    "plan": "basic",
+    "status": "valid",
+    "version": "version1.0",
+    "validity": "30-days",
+    "start_date": "2024-08-02 00:00:00",
+    "end_date": "2024-09-01 23:59:59",
+    "grace_period": "10-days",
+    "licensed_users": "1000",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": "0",
+    "billing_type": "95th_%_eps",
+    "gb_per_day": "",
+    "eps": "",
+    "eps_percent": "yes",
+    "features": "Features",
+    "jira_ticket": "testtiicket",
+    "operation": "generate_license",
+    "refresh_snypr": "NA",
+    "useremail": "ssoni@securonix.com",
+    "logtime": 1722578143000,
+    "timeutc": "2024-08-02 05:55:43",
+    "features_dict": {
+      "basic": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "90-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "No"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "No",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "No",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot storage": "",
+          "Additional Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "uat02",
+    "tenantid": "a1t2test2",
+    "tenantname": "test",
+    "plan": "basic",
+    "status": "valid",
+    "version": "version1.2",
+    "validity": "30-days",
+    "start_date": "2024-06-12 00:00:00",
+    "end_date": "2024-07-11 23:59:59",
+    "grace_period": "10-days",
+    "licensed_users": "11",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": "0",
+    "billing_type": "avg_eps",
+    "gb_per_day": "",
+    "eps": "1999",
+    "eps_percent": "",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "renew_license",
+    "refresh_snypr": "no",
+    "useremail": "akatale@securonix.com",
+    "logtime": 1718316606000,
+    "timeutc": "2024-06-13 22:10:06",
+    "features_dict": {
+      "basic": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "90-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "No"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "No",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "No",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot storage": "",
+          "Additional Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "uat01",
+    "tenantid": "a1t1test",
+    "tenantname": "Demo Tenant",
+    "plan": "ueba_only",
+    "status": "valid",
+    "version": "version1.3",
+    "validity": "42-days",
+    "start_date": "2024-06-20 00:00:00",
+    "end_date": "2024-07-31 23:59:59",
+    "grace_period": "10-days",
+    "licensed_users": "110",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "enterprise",
+    "consumer_type": "user",
+    "consumer_amount": "",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "testname",
+    "policy_allowed_count": "1500",
+    "cold_storage": "2",
+    "cold_storage_days": "29",
+    "billing_type": "avg_eps",
+    "gb_per_day": "",
+    "eps": "5001",
+    "eps_percent": "",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "renew_license",
+    "refresh_snypr": "no",
+    "useremail": "akatale@securonix.com",
+    "logtime": 1718296086000,
+    "timeutc": "2024-06-13 16:28:06",
+    "features_dict": {
+      "ueba_only": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "365-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "Yes"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "Yes",
+          "Additional Hot storage": "2-days",
+          "Additional Cold storage": "5-days",
+          "Hosted (Cloud) Collectors": "Yes"
+        }
+      }
+    }
+  },
+  {
+    "cluster": "uat02",
+    "tenantid": "a1t1test",
+    "tenantname": "test2",
+    "plan": "basic",
+    "status": "valid",
+    "version": "version1.2",
+    "validity": "30-days",
+    "start_date": "2024-06-11 00:00:00",
+    "end_date": "2024-07-10 23:59:59",
+    "grace_period": "10-days",
+    "licensed_users": "1",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "1a",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": "0",
+    "billing_type": "gb_per_day",
+    "gb_per_day": "50-100",
+    "eps": "",
+    "eps_percent": "",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "renew_license",
+    "refresh_snypr": "no",
+    "useremail": "akatale11@securonix.com",
+    "logtime": 1718219279000,
+    "timeutc": "2024-06-12 19:07:59",
+    "features_dict": {
+      "basic": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "90-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "No"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "No",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "No",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot storage": "",
+          "Additional Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "uat99",
+    "tenantid": "a99t99uat99",
+    "tenantname": "test uat",
+    "plan": "allin",
+    "status": "valid",
+    "version": "version1.3",
+    "validity": "62-days",
+    "start_date": "2024-06-15 00:00:00",
+    "end_date": "2024-08-15 23:59:59",
+    "grace_period": "10-days",
+    "licensed_users": "1",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "enterprise",
+    "consumer_type": "user",
+    "consumer_amount": "",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "",
+    "policy_allowed_count": "1500",
+    "cold_storage": "2",
+    "cold_storage_days": "22",
+    "billing_type": "95th_%_eps",
+    "gb_per_day": "",
+    "eps": "",
+    "eps_percent": "1090",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "renew_license",
+    "refresh_snypr": "no",
+    "useremail": "akatale11@securonix.com",
+    "logtime": 1718143194000,
+    "timeutc": "2024-06-11 21:59:54",
+    "features_dict": {
+      "allin": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "365-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "Yes"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "Yes"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "Yes",
+          "SOAR: Security Orchestration and Automation and Response module": "Full",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "Yes",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot storage": "1-day",
+          "Additional Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "uat12",
+    "tenantid": "a1t12uat12",
+    "tenantname": "test",
+    "plan": "basic",
+    "status": "valid",
+    "version": "version1.2",
+    "validity": "30-days",
+    "start_date": "2024-06-11 00:00:00",
+    "end_date": "2024-07-10 23:59:59",
+    "grace_period": "20-days",
+    "licensed_users": "1",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": "0",
+    "billing_type": "gb_per_day",
+    "gb_per_day": "101-125",
+    "eps": "",
+    "eps_percent": "",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "renew_license",
+    "refresh_snypr": "no",
+    "useremail": "akatale@securonix.com",
+    "logtime": 1718068961000,
+    "timeutc": "2024-06-11 01:22:41",
+    "features_dict": {
+      "basic": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "90-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "No"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "No",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "No",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot storage": "",
+          "Additional Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "prod36",
+    "tenantid": "a3t6swbb",
+    "tenantname": "Alterra Mountain Company",
+    "plan": "ela",
+    "status": "valid",
+    "version": "version1.0",
+    "validity": "166-days",
+    "start_date": "2024-02-02 00:00:00",
+    "end_date": "2024-07-16 23:59:59",
+    "grace_period": "20-days",
+    "licensed_users": "10000",
+    "licensed_resources": "1000000000",
+    "holder": "securonix",
+    "expiry_action": "warn",
+    "license_type": "enterprise",
+    "consumer_type": "user",
+    "consumer_amount": "12210",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "securonix",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "advanced",
+    "policy_allowed_count": "1500",
+    "cold_storage": "2",
+    "cold_storage_days": "25",
+    "billing_type": "95th_%_eps",
+    "gb_per_day": "",
+    "eps": "",
+    "eps_percent": "2090",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "renew_license",
+    "refresh_snypr": "no",
+    "useremail": "akatale11@securonix.com",
+    "logtime": 1718051269000,
+    "timeutc": "2024-06-10 20:27:49",
+    "features_dict": {
+      "ela": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "365-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "Yes"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "Yes"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Full",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot storage": "29-days",
+          "Additional Cold storage": "5-days",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "uat99",
+    "tenantid": "a1t99uat99",
+    "tenantname": "test",
+    "plan": "standard",
+    "status": "valid",
+    "version": "version1.1",
+    "validity": "53-days",
+    "start_date": "2024-06-09 00:00:00",
+    "end_date": "2024-07-31 23:59:59",
+    "grace_period": "20-days",
+    "licensed_users": "11",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": "1",
+    "billing_type": "avg_eps",
+    "gb_per_day": "",
+    "eps": "12345",
+    "eps_percent": "",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "renew_license",
+    "refresh_snypr": "no",
+    "useremail": "akatale@securonix.com",
+    "logtime": 1717955715000,
+    "timeutc": "2024-06-09 17:55:15",
+    "features_dict": {
+      "standard": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "90-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot or Cold storage": "Yes",
+          "Hosted (Cloud) Collectors": "Yes"
+        }
+      }
+    }
+  },
+  {
+    "cluster": "prod25",
+    "tenantid": "a1t25prod25",
+    "tenantname": "Tenant Prod25",
+    "plan": "allin",
+    "status": "valid",
+    "version": "version1.1",
+    "validity": "31-days",
+    "start_date": "2024-07-01 00:00:00",
+    "end_date": "2024-07-31 23:59:59",
+    "grace_period": "10-days",
+    "licensed_users": "1",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "enterprise",
+    "consumer_type": "user",
+    "consumer_amount": "12",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "testname",
+    "policy_allowed_count": "1500",
+    "cold_storage": "2",
+    "cold_storage_days": "5",
+    "billing_type": "95th_%_eps",
+    "gb_per_day": "",
+    "eps": "",
+    "eps_percent": "2099",
+    "features": "Features",
+    "jira_ticket": "test",
+    "operation": "enable_license",
+    "refresh_snypr": "no",
+    "useremail": "akatale11@securonix.com",
+    "logtime": 1717878133000,
+    "timeutc": "2024-06-08 20:22:13",
+    "features_dict": {
+      "allin": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "365-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "Yes"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "Yes"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "Yes",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "Yes",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "Yes",
+          "Additional Hot or Cold storage": "Yes",
+          "Hosted (Cloud) Collectors": "Yes"
+        }
+      }
+    }
+  },
+  {
+    "cluster": "uat23",
+    "tenantid": "a23t23uat",
+    "tenantname": "test",
+    "plan": "basic",
+    "status": "valid",
+    "version": "version1.0",
+    "validity": "30-days",
+    "start_date": "2024-06-08 00:00:00",
+    "end_date": "2024-07-07 23:59:59",
+    "grace_period": "10-days",
+    "licensed_users": "1",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": "0",
+    "billing_type": "gb_per_day",
+    "gb_per_day": "0-50",
+    "eps": "",
+    "eps_percent": "",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "generate_license",
+    "refresh_snypr": "NA",
+    "useremail": "akatale11@securonix.com",
+    "logtime": 1717829994000,
+    "timeutc": "2024-06-08 06:59:54",
+    "features_dict": {
+      "basic": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "90-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "No"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "No",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "No",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot storage": "",
+          "Additional Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "AZ99",
+    "tenantid": "a1tzaz99",
+    "tenantname": "",
+    "plan": "basic",
+    "status": "valid",
+    "version": "version1.1",
+    "validity": "30-days",
+    "start_date": "2024-06-07 00:00:00",
+    "end_date": "2024-07-06 23:59:59",
+    "grace_period": "10-days",
+    "licensed_users": "1",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "testname",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": "",
+    "billing_type": "avg_eps",
+    "gb_per_day": "",
+    "eps": "12345",
+    "eps_percent": "",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/INC-444318",
+    "operation": "enable_license",
+    "refresh_snypr": "no",
+    "useremail": "akatale@securonix.com",
+    "logtime": 1717812530000,
+    "timeutc": "2024-06-08 02:08:50",
+    "features_dict": {
+      "basic": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "90-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "No"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "No",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "No",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot or Cold storage": "Yes",
+          "Hosted (Cloud) Collectors": "No"
+        }
+      }
+    }
+  },
+  {
+    "cluster": "uat02",
+    "tenantid": "a1t2uat2",
+    "tenantname": "UAT2 Tenant2",
+    "plan": "allin",
+    "status": "valid",
+    "version": "version2.4",
+    "validity": "27-days",
+    "start_date": "2024-07-25 00:00:00",
+    "end_date": "2024-08-20 23:59:59",
+    "grace_period": "20-days",
+    "licensed_users": "11",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "enterprise",
+    "consumer_type": "user",
+    "consumer_amount": "90",
+    "warn_period": "30-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "",
+    "policy_allowed_count": "1500",
+    "cold_storage": "2",
+    "cold_storage_days": "0",
+    "billing_type": "95th_%_eps",
+    "gb_per_day": "",
+    "eps": "",
+    "eps_percent": "9091",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "renew_license",
+    "refresh_snypr": null,
+    "useremail": "akatale11@securonix.com",
+    "logtime": 1717723526000,
+    "timeutc": "2024-06-07 01:25:26",
+    "features_dict": {
+      "allin": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "255-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "Yes"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "Yes"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": "10 X"
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "Yes",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "Yes",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot storage": "",
+          "Additional Cold storage": "1-day",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "AZ12",
+    "tenantid": "a1t12az12",
+    "tenantname": "az",
+    "plan": "basic",
+    "status": "valid",
+    "version": "version1.1",
+    "validity": "30-days",
+    "start_date": "2024-06-06 00:00:00",
+    "end_date": "2024-07-05 23:59:59",
+    "grace_period": "10-days",
+    "licensed_users": "1",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": "",
+    "billing_type": "avg_eps",
+    "gb_per_day": "",
+    "eps": "11",
+    "eps_percent": "",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "renew_license",
+    "refresh_snypr": null,
+    "useremail": "akatale@securonix.com",
+    "logtime": 1717716605000,
+    "timeutc": "2024-06-06 23:30:05",
+    "features_dict": {
+      "basic": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "90-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "No"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "No",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "No",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot or Cold storage": "",
+          "Hosted (Cloud) Collectors": "Yes"
+        }
+      }
+    }
+  },
+  {
+    "cluster": "uat19",
+    "tenantid": "a1t19uat19",
+    "tenantname": "abcd",
+    "plan": "basic",
+    "status": "valid",
+    "version": "version1.1",
+    "validity": "30-days",
+    "start_date": "2024-06-06 00:00:00",
+    "end_date": "2024-07-05 23:59:59",
+    "grace_period": "30-days",
+    "licensed_users": "1",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "11",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "asdas",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": "",
+    "billing_type": "gb_per_day",
+    "gb_per_day": "0-50",
+    "eps": "",
+    "eps_percent": "",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "renew_license",
+    "refresh_snypr": null,
+    "useremail": "akatale@securonix.com",
+    "logtime": 1717715922000,
+    "timeutc": "2024-06-06 23:18:42",
+    "features_dict": {
+      "basic": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "90-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "No"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "No",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "No",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot or Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "uat22",
+    "tenantid": "a1t1uat22",
+    "tenantname": "UAT22 Tenant",
+    "plan": "advanced",
+    "status": "valid",
+    "version": "version1.0",
+    "validity": "30-days",
+    "start_date": "2024-06-03 00:00:00",
+    "end_date": "2024-07-02 23:59:59",
+    "grace_period": "10-days",
+    "licensed_users": "1",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": "",
+    "billing_type": "gb_per_day",
+    "gb_per_day": "50-100",
+    "eps": "",
+    "eps_percent": "",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "generate_license",
+    "refresh_snypr": null,
+    "useremail": "akatale@securonix.com",
+    "logtime": 1717460466000,
+    "timeutc": "2024-06-04 00:21:06",
+    "features_dict": {
+      "advanced": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "365-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "Yes"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "Yes"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Full",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot or Cold storage": "Yes",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "uat11",
+    "tenantid": "a1t1uat11",
+    "tenantname": "UAT11 Tenant",
+    "plan": "standard",
+    "status": "valid",
+    "version": "version1.1",
+    "validity": "30-days",
+    "start_date": "2024-06-10 00:00:00",
+    "end_date": "2024-07-09 23:59:59",
+    "grace_period": "10-days",
+    "licensed_users": "1",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "enterprise",
+    "consumer_type": "user",
+    "consumer_amount": "",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "test",
+    "policy_allowed_count": "1500",
+    "cold_storage": "5",
+    "cold_storage_days": "11",
+    "billing_type": "95th_%_eps",
+    "gb_per_day": "",
+    "eps": "",
+    "eps_percent": "1199",
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "renew_license",
+    "refresh_snypr": null,
+    "useremail": "akatale11@securonix.com",
+    "logtime": 1717460347000,
+    "timeutc": "2024-06-04 00:19:07",
+    "features_dict": {
+      "standard": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "90-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot storage": "9-days",
+          "Additional Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "AZ1",
+    "tenantid": "a1t1az",
+    "tenantname": "AZ Tenant",
+    "plan": "ela",
+    "status": "valid",
+    "version": "version1.0",
+    "validity": "34-days",
+    "start_date": "2024-06-03 00:00:00",
+    "end_date": "2024-07-06 23:59:59",
+    "grace_period": "10-days",
+    "licensed_users": "1",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "enterprise",
+    "consumer_type": "user",
+    "consumer_amount": "",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": null,
+    "billing_type": "gb_per_day",
+    "gb_per_day": "0-50",
+    "eps": "",
+    "eps_percent": null,
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "generate_license",
+    "refresh_snypr": null,
+    "useremail": "akatale11@securonix.com",
+    "logtime": 1717456745000,
+    "timeutc": "2024-06-03 23:19:05",
+    "features_dict": {
+      "ela": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "365-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "Yes"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "Yes"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "Yes",
+          "SOAR: Security Orchestration and Automation and Response module": "Full",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "Yes",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot storage": "9-days",
+          "Additional Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "xyz9",
+    "tenantid": "xyztenant9",
+    "tenantname": "XYZ Tenant9",
+    "plan": "basic",
+    "status": "valid",
+    "version": "version1.0",
+    "validity": "31-days",
+    "start_date": "2024-06-05 00:00:00",
+    "end_date": "2024-07-05 23:59:59",
+    "grace_period": "20-days",
+    "licensed_users": "1",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "",
+    "warn_period": "30-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": null,
+    "billing_type": "gb_per_day",
+    "gb_per_day": "50-100",
+    "eps": "",
+    "eps_percent": null,
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "generate_license",
+    "refresh_snypr": null,
+    "useremail": "akatale11@securonix.com",
+    "logtime": 1717438560000,
+    "timeutc": "2024-06-03 18:16:00",
+    "features_dict": {
+      "basic": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "90-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "No"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "No",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "No",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Full",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot or Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "AshishEkad",
+    "tenantid": "AshishEkad",
+    "tenantname": "Ashish Ekad",
+    "plan": "advanced",
+    "status": "valid",
+    "version": "version1.0",
+    "validity": "30-days",
+    "start_date": "2024-05-30 00:00:00",
+    "end_date": "2024-06-29 23:59:59",
+    "grace_period": "60-days",
+    "licensed_users": "12345",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "12121212",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "AshishEkad",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": null,
+    "billing_type": "gb_per_day",
+    "gb_per_day": "1001-1250",
+    "eps": "",
+    "eps_percent": null,
+    "features": "Features",
+    "jira_ticket": "SHAR-12434",
+    "operation": "generate_license",
+    "refresh_snypr": null,
+    "useremail": "aekad@securonix.com",
+    "logtime": 1717056993000,
+    "timeutc": "2024-05-30 08:16:33",
+    "features_dict": {
+      "advanced": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "365-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "Yes"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "Yes"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Full",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot or Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "-",
+    "tenantid": "a1t1stls",
+    "tenantname": "a1t1stls",
+    "plan": "standard",
+    "status": "valid",
+    "version": "version2.9",
+    "validity": "180-days",
+    "start_date": "2024-01-17 00:00:00",
+    "end_date": "2024-07-15 23:59:59",
+    "grace_period": "30-days",
+    "licensed_users": "10000",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "enterprise",
+    "consumer_type": "user",
+    "consumer_amount": "12210",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "Advanced",
+    "policy_allowed_count": "1500",
+    "cold_storage": "1",
+    "cold_storage_days": null,
+    "billing_type": "avg_eps",
+    "gb_per_day": "",
+    "eps": "5000",
+    "eps_percent": null,
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/SHAR-8605",
+    "operation": "renew_license",
+    "refresh_snypr": null,
+    "useremail": "akarunakaran@securonix.com",
+    "logtime": 1716977002000,
+    "timeutc": "2024-05-29 10:03:22",
+    "features_dict": {
+      "standard": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "90-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot or Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "prod09",
+    "tenantid": "a1t1test9",
+    "tenantname": "Test Migration",
+    "plan": "ueba_only",
+    "status": "valid",
+    "version": "version1.0",
+    "validity": "30-days",
+    "start_date": "2024-04-01 00:00:00",
+    "end_date": "2024-05-01 23:59:59",
+    "grace_period": "30-days",
+    "licensed_users": "100000",
+    "licensed_resources": "1000000000",
+    "holder": "securonix",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "12211",
+    "warn_period": "60",
+    "lifecycle_status": "noworries",
+    "issuer": "securonix",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "advanced",
+    "policy_allowed_count": "1500",
+    "cold_storage": "5",
+    "cold_storage_days": null,
+    "billing_type": "gb_per_day",
+    "gb_per_day": "101-125",
+    "eps": "",
+    "eps_percent": null,
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-1038471",
+    "operation": "enable_license",
+    "refresh_snypr": null,
+    "useremail": "akatale11@securonix.com",
+    "logtime": 1715282161000,
+    "timeutc": "2024-05-09 19:16:01",
+    "features_dict": {
+      "ueba_only": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "365-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "no",
+          "Premium Data enrichment: IP attribution": "yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": null,
+          "Standard Behavioral Analytics": "yes",
+          "Advanced Behavioral Analytics": "yes"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "no",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "yes"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot or Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "uat03",
+    "tenantid": "a1t1uat03",
+    "tenantname": "UAT03 Tenant",
+    "plan": "basic",
+    "status": "invalid",
+    "version": "version1.4",
+    "validity": "180-days",
+    "start_date": "2024-04-17 00:00:00",
+    "end_date": "2024-10-13 23:59:59",
+    "grace_period": "60-days",
+    "licensed_users": "1112",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "111",
+    "warn_period": "30-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": null,
+    "billing_type": "gb_per_day",
+    "gb_per_day": "151-200",
+    "eps": "",
+    "eps_percent": null,
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-1038471",
+    "operation": "disable_license",
+    "refresh_snypr": null,
+    "useremail": "akataletest@securonix.com",
+    "logtime": 1713895289000,
+    "timeutc": "2024-04-23 18:01:29",
+    "features_dict": {
+      "basic": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "90-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "No"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "No",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "No",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot or Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "uat02",
+    "tenantid": "a1t1uat02",
+    "tenantname": "UAT2 Tennat",
+    "plan": "standard",
+    "status": "valid",
+    "version": "version1.0",
+    "validity": "365-days",
+    "start_date": "2024-05-01 00:00:00",
+    "end_date": "2025-04-30 23:59:59",
+    "grace_period": "10-days",
+    "licensed_users": "101",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "1",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "",
+    "policy_allowed_count": "1500",
+    "cold_storage": "5",
+    "cold_storage_days": null,
+    "billing_type": "avg_eps",
+    "gb_per_day": "",
+    "eps": "1000",
+    "eps_percent": null,
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "generate_license",
+    "refresh_snypr": null,
+    "useremail": "akatale@securonix.com",
+    "logtime": 1713392092000,
+    "timeutc": "2024-04-17 22:14:52",
+    "features_dict": {
+      "standard": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "365-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "No",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot or Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "uat01",
+    "tenantid": "a1t1uat01",
+    "tenantname": "UAT Tenant",
+    "plan": "ueba_only",
+    "status": "valid",
+    "version": "version1.2",
+    "validity": "365-days",
+    "start_date": "2024-04-05 00:00:00",
+    "end_date": "2025-04-04 23:59:59",
+    "grace_period": "",
+    "licensed_users": "12",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "1",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": null,
+    "billing_type": "95th_%_eps",
+    "gb_per_day": "626-750",
+    "eps": "",
+    "eps_percent": null,
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "renew_license",
+    "refresh_snypr": null,
+    "useremail": "akatale11@securonix.com",
+    "logtime": 1712174149000,
+    "timeutc": "2024-04-03 19:55:49",
+    "features_dict": {
+      "ueba_only": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "365-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "Yes"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "Yes"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Full",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot or Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "uat09",
+    "tenantid": "a1t1testuat09",
+    "tenantname": "zz",
+    "plan": "standard",
+    "status": "valid",
+    "version": "version1.2",
+    "validity": "365-days",
+    "start_date": "2023-10-11 00:00:00",
+    "end_date": "2024-10-10 23:59:59",
+    "grace_period": "10-days",
+    "licensed_users": "1",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "1",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "testname",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": null,
+    "billing_type": "95th_%_eps",
+    "gb_per_day": "0-50",
+    "eps": "0",
+    "eps_percent": null,
+    "features": "Features",
+    "jira_ticket": "oipoipipoi",
+    "operation": "renew_license",
+    "refresh_snypr": null,
+    "useremail": "snikam@securonix.com",
+    "logtime": 1711543130000,
+    "timeutc": "2024-03-27 12:38:50",
+    "features_dict": {
+      "standard": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "90-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot or Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  },
+  {
+    "cluster": "prod29",
+    "tenantid": "a1t1prod29",
+    "tenantname": "Tenant Prod29",
+    "plan": "standard",
+    "status": "valid",
+    "version": "version1.1",
+    "validity": "365-days",
+    "start_date": "2024-03-26 00:00:00",
+    "end_date": "2025-03-25 23:59:59",
+    "grace_period": "30-days",
+    "licensed_users": "1000",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "mssp",
+    "consumer_type": "user",
+    "consumer_amount": "1",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "testname",
+    "policy_allowed_count": "1500",
+    "cold_storage": "5",
+    "cold_storage_days": null,
+    "billing_type": "gb_per_day",
+    "gb_per_day": "401-500",
+    "eps": "",
+    "eps_percent": null,
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-1038471",
+    "operation": "enable_license",
+    "refresh_snypr": null,
+    "useremail": "akatale11@securonix.com",
+    "logtime": 1711491043000,
+    "timeutc": "2024-03-26 22:10:43",
+    "features_dict": {
+      "standard": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "365-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Full",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot or Cold storage": "Yes",
+          "Hosted (Cloud) Collectors": "Yes"
+        }
+      }
+    }
+  },
+  {
+    "cluster": "prod18",
+    "tenantid": "a1t1prod18",
+    "tenantname": "Prod18 Tenant",
+    "plan": "standard",
+    "status": "valid",
+    "version": "version1.0",
+    "validity": "30-days",
+    "start_date": "2024-03-26 00:00:00",
+    "end_date": "2024-04-24 23:59:59",
+    "grace_period": "10-days",
+    "licensed_users": "11",
+    "licensed_resources": "1000000000",
+    "holder": "SECURONIX",
+    "expiry_action": "warn",
+    "license_type": "enterprise",
+    "consumer_type": "user",
+    "consumer_amount": "11",
+    "warn_period": "60-days",
+    "lifecycle_status": "noworries",
+    "issuer": "SECURONIX",
+    "events_per_day": "0",
+    "disk_space": "0",
+    "name": "",
+    "policy_allowed_count": "1500",
+    "cold_storage": "3",
+    "cold_storage_days": null,
+    "billing_type": "avg_eps",
+    "gb_per_day": "",
+    "eps": "1000",
+    "eps_percent": null,
+    "features": "Features",
+    "jira_ticket": "https://securonix.atlassian.net/browse/ALERT-12840191111",
+    "operation": "generate_license",
+    "refresh_snypr": null,
+    "useremail": "akatale11@securonix.com",
+    "logtime": 1711490134000,
+    "timeutc": "2024-03-26 21:55:34",
+    "features_dict": {
+      "standard": {
+        "Ingestion, Storage and Enrichment": {
+          "Data Storage with Snowflake Data Lake": "90-days",
+          "Data enrichment: Threat Intelligence, Geolocation, Identity": "Yes",
+          "Premium Data enrichment: IP attribution": "Yes"
+        },
+        "Analytics": {
+          "Basic Analytics - IEE and AEE": "Yes",
+          "Standard Behavioral Analytics": "Yes",
+          "Advanced Behavioral Analytics": "No"
+        },
+        "Threat Models": {
+          "Basic Threat Modeling: Map policies to attack chain": "Yes",
+          "Advanced Threat Modeling: Behavioral profiling of threats": "No"
+        },
+        "Search Capacity": {
+          "Monthly search capacity included with the package": ""
+        },
+        "Platform Add-ons": {
+          "Investigate: Integrate internal and external data in investigation process": "",
+          "SOAR: Security Orchestration and Automation and Response module": "Lite",
+          "ATS: Autonomous Threat Sweeper Service - threat assessment and response": "",
+          "Content / Data Science Studio (Premium playbooks and usage are metered)": "",
+          "Threat Coverage Analyzer: Security posture assessment": "",
+          "NxLog Windows data collection": "",
+          "Premium Disaster Recovery: Improved recovery and availability SLAs": "",
+          "Data Services (Hydration, handover)": "",
+          "Additional Hot or Cold storage": "",
+          "Hosted (Cloud) Collectors": ""
+        }
+      }
+    }
+  }
+]

@@ -1,8 +1,10 @@
 from cryptography.fernet import Fernet
 import os
-
+from dotenv import load_dotenv
+load_dotenv()
 # Load the key from the environment variable
 key = os.getenv('SECRET_KEY')
+
 
 # Check if the key is None or not in the correct format
 if key is None:

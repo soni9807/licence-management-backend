@@ -2,21 +2,31 @@ from flask import Flask, jsonify, request
 from db import insert_sql, execute_raw_query
 from flask_cors import CORS
 from dotenv import load_dotenv
-import os
 import json
 from util.encryption import encrypt_data, decrypt_data
 
-load_dotenv()  # Load environment variables from .env file
+load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
 
-# Access the secret key from environment variables
-secretKey = os.getenv('SECRET_KEY')
 
 @app.route('/')
 def hello_world():
     return 'Hello, World!'
+
+@app.route('/all-tenants')
+def getAllTenats():
+    with open('./util/data/licence.json', 'r') as file:
+        data = json.load(file)
+    return jsonify(data)
+
+@app.route('/audit-licence')
+def getAllAuditTenats():
+    with open('./util/data/licenceAudit.json', 'r') as file:
+        data = json.load(file)
+    return jsonify(data)
+
 
 @app.route('/input-fields')
 def getInputFields():
