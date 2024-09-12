@@ -23,6 +23,14 @@ def getAllAuditTenats():
 def refreshLicence():
     pass
 
+@licenceBP.route("/update-licence",methods=['POST'])
+def updateLicence():
+    pass
+
+@licenceBP.route("/search-tenants",methods=['POST'])
+def searchTenants():
+    pass
+
 @licenceBP.route('/generate-new-licence', methods=['POST'])
 def genrateNewLicence():
     request_data = request.get_json()
