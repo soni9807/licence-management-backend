@@ -4,8 +4,8 @@ def get_db_connection():
     connection = pymysql.connect(
         host='localhost',
         user='root',
-        password='12345678',
-        database='user_response_form'
+        password='1234567890',
+        database='devOps'
     )
     return connection
 
@@ -30,15 +30,13 @@ def execute_raw_query(query, params=None):
     try:
         with connection.cursor() as cursor:
             cursor.execute(query, params)
-            columns = [desc[0] for desc in cursor.description]  # Get column names
-            rows = cursor.fetchall()  # Fetch all results
-
-            # Convert rows to a list of dictionaries
+            columns = [desc[0] for desc in cursor.description]
+            rows = cursor.fetchall() 
             results = [dict(zip(columns, row)) for row in rows]
     except Exception as e:
         print(f"Error executing query: {e}")
         results = []
     finally:
-        connection.close()  # Ensure the connection is closed
+        connection.close() 
     return results
 
